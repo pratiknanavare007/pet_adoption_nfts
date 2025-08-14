@@ -1,0 +1,14 @@
+[package]
+name = "pet_adoption_nfts"
+version = "1.0.0"
+authors = []
+[addresses]
+MyModule = '0xb358cc0f6cca09429a5a2b40c3224fa33b7f84943a38f259dae06004f80c5d43'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
